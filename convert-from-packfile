@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+# TODO: dynamid packfile name
+mv .git/objects/pack/pack-d9ef004d4ca729287f12aaaacf36fee39baa7c9d.pack .
+cat pack-d9ef004d4ca729287f12aaaacf36fee39baa7c9d.pack | git unpack-objects
